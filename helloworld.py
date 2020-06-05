@@ -59,3 +59,8 @@ tomcat = subprocess-check_output(["./home/ubuntu/tomcat/bin/version.sh"]).decode
 print(tomcat)
 print("\n")
 """
+office = input("Where do you work: ")
+print("\n")
+print("I work at " + office)
+print("\n")
+print ("This is script version v0.1")
